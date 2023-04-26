@@ -1,8 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 * {
   padding: 0;
   margin: 0;
   list-style: none;
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+header div {
+  display: inline-block;
+  justify-content: baseline;
+  background-color: #2a6f97;
+}
+header div h1 {
+  font-family: "Chivo Mono", monospace;
+  font-size: 2.5em;
+}
+header div img {
+  height: 60px;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.container {
+  background-image: url(../img/pexels-tom-fisk-1595108.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  height: 90vh;
+}
+.container h2 {
+  color: #fff;
+  font-size: 4em;
+  text-align: start;
+}
+.container img {
+  width: 100%;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
