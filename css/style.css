@@ -45,12 +45,24 @@ header div img {
 .container h2 {
   font-family: "Pathway Extreme", sans-serif;
   color: #fff;
-  font-size: 4em;
+  font-size: 2.4em;
+  text-align: center;
   text-align: start;
 }
 .container img {
   width: 100%;
   padding: 20px;
+}
+.container h3 {
+  color: white;
+  font-size: 2em;
+}
+.container p {
+  color: #fff;
+  font-size: 1.1em;
+}
+.container span {
+  color: gold;
 }
 
 /*# sourceMappingURL=style.css.map */
