@@ -36,5 +36,33 @@
     & span{
         color: gold;
     }
+    
+    & button{
+        border: 0;
+        background: linear-gradient(90deg, rgba(26,27,26,1) 0%, rgba(26,153,21,1) 51%, rgba(2,17,1,1) 98%);
+        border-radius: 8px;
+        color: #fff;
+        display: flex;
+        padding: 4px;
+        cursor: pointer;
+        transition: .3s;
+        
+    }
+
+    & .boton{
+        color: #fff;
+        background-color: #588157;
+        padding: 16px 24px;
+        border-radius: 6px;
+        transition: .3s;
+    }
+
+    & .boton:hover{
+        background: none;
+    }
+
+    .boton:active{
+        transform: scale(0.8);
+    }
 
 }
