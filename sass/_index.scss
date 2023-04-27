@@ -8,7 +8,7 @@
     background-position: center;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
-    height: 150vh;
+    height: 200vh;
 
     & h2{
         font-family: 'Pathway Extreme', sans-serif;
@@ -46,7 +46,12 @@
         font-size: 3em;
     }
 
+    & p{
+        padding: 10px;
+    }
+
     & i{
+        padding: 20px;
         color: white;
         font-size: 8em;
     }

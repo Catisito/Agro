@@ -42,7 +42,7 @@ header div img {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: multiply;
-  height: 150vh;
+  height: 200vh;
 }
 .container h2 {
   font-family: "Pathway Extreme", sans-serif;
@@ -72,7 +72,11 @@ header div img {
   color: white;
   font-size: 3em;
 }
+.container p {
+  padding: 10px;
+}
 .container i {
+  padding: 20px;
   color: white;
   font-size: 8em;
 }
