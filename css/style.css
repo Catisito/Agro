@@ -35,6 +35,8 @@ header div img {
 }
 
 .container {
+  text-align: center;
+  flex-direction: column;
   background-image: url(../img/pexels-tom-fisk-1595108.jpg);
   background-size: cover;
   background-position: center;
@@ -64,28 +66,20 @@ header div img {
 .container span {
   color: gold;
 }
-.container button {
-  border: 0;
-  background: linear-gradient(90deg, rgb(26, 27, 26) 0%, rgb(26, 153, 21) 51%, rgb(2, 17, 1) 98%);
-  border-radius: 8px;
+
+.boton {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  width: 100px;
+  height: 50px;
+  background: #141414;
   color: #fff;
-  display: flex;
-  padding: 4px;
+  font-weight: 600;
+  border: none;
   cursor: pointer;
-  transition: 0.3s;
-}
-.container .boton {
-  color: #fff;
-  background-color: #588157;
-  padding: 16px 24px;
-  border-radius: 6px;
-  transition: 0.3s;
-}
-.container .boton:hover {
-  background: none;
-}
-.container .boton:active {
-  transform: scale(0.8);
+  font-size: 1em;
+  transition: 0.3s ease all;
 }
 
 /*# sourceMappingURL=style.css.map */
