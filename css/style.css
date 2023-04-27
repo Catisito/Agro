@@ -47,6 +47,7 @@ header div img {
 .container h2 {
   font-family: "Pathway Extreme", sans-serif;
   color: #fff;
+  padding: 30px;
   font-size: 2.4em;
   text-align: center;
   text-align: start;
@@ -70,9 +71,8 @@ header div img {
 .boton {
   display: inline-flex;
   align-items: center;
-  max-width: 100%;
-  width: 100px;
-  height: 50px;
+  width: 90%;
+  height: 60px;
   background: #141414;
   color: #fff;
   font-weight: 600;
@@ -80,6 +80,35 @@ header div img {
   cursor: pointer;
   font-size: 1em;
   transition: 0.3s ease all;
+}
+.boton .icono {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  left: 50px;
+  transition: 0.3s ease-in-out all;
+  opacity: 0;
+}
+.boton:hover {
+  background-color: #008000;
+}
+.boton:hover .icono {
+  left: 250px;
+  opacity: 0;
+}
+.boton span {
+  font-size: 1.1em;
+  color: #fff;
+  transition: 0.4s ease-in-out all;
+  position: absolute;
+  left: 40%;
+}
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 20000px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
