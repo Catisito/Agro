@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -120,6 +121,39 @@ header div img {
   transition: 0.4s ease-in-out all;
   position: absolute;
   left: 40%;
+}
+
+.container2 {
+  height: 20vh;
+  background: rgb(175, 173, 8);
+  background: linear-gradient(90deg, rgb(175, 173, 8) 1%, rgb(26, 153, 21) 51%, rgb(175, 173, 8) 100%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.container2 h2 {
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 2em;
+}
+.container2 p {
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.grid__layout {
+  display: grid;
+}
+
+.grid__venta {
+  display: grid;
+  width: 250px;
+  height: 350px;
+  border: 4px solid black;
+  background-color: lightgray;
+  margin: 15px;
+  text-align: center;
+  line-height: 150px;
 }
 
 @media (min-width: 576px) {
