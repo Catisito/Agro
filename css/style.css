@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -203,6 +204,21 @@ header div img {
 }
 .container3 #horarios {
   font-size: 1.2em;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  min-height: auto;
+  padding: 10px;
+  gap: 20px;
+  background-color: #f2e8cf;
+}
+.container4 h3 {
+  font-family: "Pathway Extreme", sans-serif;
+  text-transform: uppercase;
 }
 
 @media (min-width: 576px) {
