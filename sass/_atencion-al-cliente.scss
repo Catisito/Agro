@@ -1,0 +1,26 @@
+$color: #bc4749;
+
+.container3{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: $color;
+    height: 18vh;
+    padding: 5px;
+    gap: 5px;
+    font-weight: 600;
+
+    & h2{
+        font-size: 2.4em;
+    }
+
+    & #telephone{
+        font-size: 1.4em;
+    }
+
+    & #horarios{
+        font-size: 1.2em;
+    }
+
+}

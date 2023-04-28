@@ -182,6 +182,27 @@ header div img {
   color: #242424;
 }
 
+.container3 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #bc4749;
+  height: 18vh;
+  padding: 5px;
+  gap: 5px;
+  font-weight: 600;
+}
+.container3 h2 {
+  font-size: 2.4em;
+}
+.container3 #telephone {
+  font-size: 1.4em;
+}
+.container3 #horarios {
+  font-size: 1.2em;
+}
+
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 20000px;
