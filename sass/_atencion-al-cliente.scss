@@ -47,5 +47,24 @@ $color: #bc4749;
         font-family: $titulo;
         text-transform: uppercase;
     }
+
+    & span{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.6em;
+        background-color: #bc4749;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    & ul{
+    }
+
+    & ul li{
+        font-weight: 600;
+        list-style: decimal;
+        margin-bottom: 15px;
+        
+    }
 }
 
