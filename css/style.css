@@ -286,6 +286,10 @@ header div img {
   font-size: 1em;
 }
 
+.container__fondo {
+  background-color: #fefae0;
+}
+
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 20000px;
