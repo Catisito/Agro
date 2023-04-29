@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -232,6 +233,31 @@ header div img {
   font-weight: 600;
   list-style: decimal;
   margin-bottom: 15px;
+}
+
+.container5 {
+  flex-direction: column;
+  align-items: start;
+  text-align: center;
+  min-height: 20vh;
+  margin-top: 0;
+  padding: 10px;
+  background-color: #f2e8cf;
+}
+.container5 h2 {
+  text-align: start;
+  text-transform: uppercase;
+}
+.container5 p {
+  text-align: start;
+  text-transform: uppercase;
+}
+.container5 span {
+  font-size: 1.2em;
+  font-family: "Ysabeau", sans-serif;
+  margin-right: 15px;
+  color: black;
+  font-weight: 600;
 }
 
 @media (min-width: 576px) {
