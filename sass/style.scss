@@ -5,10 +5,4 @@
 @use 'venta';
 @use 'atencion-al-cliente';
 @use 'nuestras-oficinas';
-@use 'el-ambiente';
-
-@media (min-width: 576px) {
-    .container, .container-sm {
-    max-width: 20000px;
-    }
-}
+@use 'lol';
