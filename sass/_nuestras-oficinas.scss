@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
+$fuente-primaria: 'Pathway Extreme', sans-serif;
 $fuente-span: 'Ysabeau', sans-serif;
 $fuente-oficinas: 'Ubuntu', sans-serif;
 
@@ -18,11 +19,14 @@ $fuente-oficinas: 'Ubuntu', sans-serif;
 .container5{
 
     & h2{
+        font-family: $fuente-primaria;
+        font-size: 2.5em;
         text-align: start;
         text-transform: uppercase;
     }
 
     & p{
+        font-size: 1.2em;
         text-align: start;
         text-transform: uppercase;
     }
