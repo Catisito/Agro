@@ -63,18 +63,3 @@
     margin: 20px;
 }
 
-.footer{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #143d55;
-
-    & img{
-        width: 100px;
-    }
-
-    &__span{
-        color: #fff;
-    }
-}

@@ -124,20 +124,6 @@ body {
   margin: 20px;
 }
 
-.footer {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
-  background-color: #143d55;
-}
-.footer img {
-  width: 100px;
-}
-.footer__span {
-  color: #fff;
-}
-
 .boton {
   display: inline-flex;
   align-items: center;
@@ -410,6 +396,25 @@ header div img {
 
 .navbar-toggler:focus {
   box-shadow: none !important;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #143d55;
+}
+.footer img {
+  width: 100px;
+}
+.footer__span {
+  color: #fff;
+  text-decoration: none;
+}
+.footer__derechos {
+  font-size: 0.8em;
+  color: #7a7a7a;
 }
 
 /*# sourceMappingURL=style.css.map */
