@@ -124,6 +124,20 @@ body {
   margin: 20px;
 }
 
+.footer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #143d55;
+}
+.footer img {
+  width: 100px;
+}
+.footer__span {
+  color: #fff;
+}
+
 .boton {
   display: inline-flex;
   align-items: center;
