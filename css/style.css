@@ -7,6 +7,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap");
 * {
   padding: 0;
@@ -328,19 +330,51 @@ body {
 }
 
 .container7 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
   color: #242424;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
   background-blend-mode: multiply;
   background-image: url(../img/campo-naturalesa.jpg);
   background-position: center;
   color: #242424;
+  min-height: 20vh;
 }
 .container7 h2 {
   font-family: "Pathway Extreme", sans-serif;
-  font-size: 2em;
+  font-size: 3em;
+  background-color: rgba(0, 0, 0, 0.1843137255);
 }
 .container7 p {
   font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: 0rem;
+  background-color: rgba(0, 0, 0, 0.1843137255);
+}
+
+.container8 {
+  background-color: #f2e8cf;
+}
+.container8 h3 {
+  color: #588157;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
+  padding: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 600;
+}
+.container8 img {
+  width: 90%;
+  padding: 10px;
+}
+.container8 p {
+  color: #242424;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 10px;
 }
 
 header div {
