@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
+$titulo: 'Pathway Extreme', sans-serif;
 .container7{
-     color: red;   
+     color: #242424;
+     background-color: rgba(0, 0, 0, 0.3);
+     background-blend-mode: multiply;
+     background-image: url(../img/campo-naturalesa.jpg);
+     background-position: center;
+     color: #242424;
+
+     & h2{
+          font-family: $titulo;
+          font-size: 2em;
+     }
+
+     & p{
+          font-weight: 600;
+     }
 }

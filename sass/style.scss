@@ -1,8 +1,9 @@
-@use 'reset';
-@use 'header';
-@use 'index';
-@use 'botones';
-@use 'venta';
-@use 'atencion-al-cliente';
-@use 'nuestras-oficinas';
-@use 'lol';
+@import './reset';
+@import './atencion-al-cliente';
+@import './index';
+@import './botones';
+@import './venta';
+@import './atencion-al-cliente';
+@import './nuestras-oficinas';
+@import './el-ambiente';
+@import './header'
