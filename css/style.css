@@ -407,8 +407,13 @@ header div img {
 }
 .footer img {
   width: 100px;
+  margin: 10px;
+}
+.footer a {
+  text-decoration: none;
 }
 .footer__span {
+  font-size: 1.2em;
   color: #fff;
   text-decoration: none;
 }
