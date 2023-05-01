@@ -29,7 +29,7 @@ $titulo: 'Pathway Extreme', sans-serif;
     border: none;
     width: 150px;
     height: 50px;
-    background-color: #dadada;
+    background-color: #fff;
 
 }
 
@@ -76,7 +76,7 @@ $titulo: 'Pathway Extreme', sans-serif;
         font-family: 'Roboto', sans-serif;
     }
 
-    & button{
+    & .elboton{
         @include boton()
     }
 
@@ -98,12 +98,10 @@ $titulo: 'Pathway Extreme', sans-serif;
 
     .grid__venta{
         height: 500px;
-        button{
+        .elboton{
             width: 200px;
             height: 60px;
         }
-        
-        
 
         span{
             font-size: 1em;

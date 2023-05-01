@@ -32,10 +32,30 @@
     }
     
     & span{
-        font-size: 1.1em;
+        font-size: 1em;
         color: #fff;
-        transition: .4s ease-in-out all;
-        position: absolute;
-        left: 40%;
+    }
+}
+
+.elboton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.iconos{
+    opacity: 1;
+    align-items: center;
+    margin-right: 3px;
+    margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px){
+    .grid__venta .elboton:hover{
+        background-color: #52b788;
+        transition: all 0.5s ease 0s;
+        font-size: 1.2em;
+        opacity: 1;
     }
 }

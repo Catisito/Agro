@@ -20,6 +20,12 @@ header div{
     border: none !important;
 }
 
+.nav-link:hover{
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    margin: 0;
+}
+
 .navbar-toggler:focus{
     box-shadow: none !important;
 }
