@@ -439,9 +439,10 @@ body {
   flex-direction: column;
   text-align: center;
   color: #242424;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-image: url(../img/campo-naturalesa.jpg);
+  background-size: 100%;
   background-position: center;
   color: #fff;
   min-height: 20vh;
@@ -459,7 +460,10 @@ body {
 }
 
 .container8 {
-  background-color: #f2e8cf;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #14213d;
 }
 .container8 h3 {
   color: #588157;
@@ -471,11 +475,11 @@ body {
   font-size: 600;
 }
 .container8 img {
-  width: 90%;
+  width: 60%;
   padding: 10px;
 }
 .container8 p {
-  color: #242424;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   padding: 10px;
@@ -483,7 +487,18 @@ body {
 
 @media screen and (min-width: 768px) {
   .container7 {
-    background-repeat: no-repeat;
+    min-height: 50vh;
+  }
+  .container7 h2 {
+    font-size: 6em;
+  }
+  .container8 h3 {
+    padding: 20px;
+    min-height: 30vh;
+    font-size: 3em;
+  }
+  .container8 img {
+    width: 50vw;
   }
 }
 header div {
