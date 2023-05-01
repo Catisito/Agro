@@ -86,7 +86,28 @@ $fuente-oficinas: 'Ubuntu', sans-serif;
         text-align: center;
     }
 
-    .container p{
+    .container5 p{
         text-align: center;
+    }
+
+    .container6{
+        min-height: 400px;
+    }
+
+    .container6 img{
+        width: 500px;
+        margin: 50px;
+    }
+
+    .container6 ul{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        font-size: 1.5em;
+    
+    }
+    .container6 h2{
+        font-size: 5em;
+        padding: 10px;
     }
 }
