@@ -76,12 +76,18 @@ $letras: 'Poppins', sans-serif;
      }
 
      .container8 h3{
-          padding: 20px;
+          padding: 10px;
+          line-height: 2;
+          letter-spacing: 0.063em;
           min-height: 30vh;
           font-size: 3em;
      }
 
      .container8 img{
           width: 50vw;
+     }
+
+     .container8 p{
+          padding: 50px;
      }
 }
