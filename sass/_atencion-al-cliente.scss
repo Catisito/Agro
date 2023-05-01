@@ -15,6 +15,7 @@ $color: #bc4749;
 
 .container3{
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -65,3 +66,8 @@ $color: #bc4749;
     }
 }
 
+@media screen and (min-width: 768px){
+    .container3{
+        font-size: 1.5em;
+    }
+}

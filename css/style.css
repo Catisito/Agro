@@ -24,6 +24,7 @@ body {
 
 .container3 {
   font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -73,6 +74,11 @@ body {
   margin-bottom: 15px;
 }
 
+@media screen and (min-width: 768px) {
+  .container3 {
+    font-size: 1.5em;
+  }
+}
 .container {
   text-align: center;
   flex-direction: column;
@@ -243,6 +249,7 @@ body {
 }
 .container3 {
   font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -292,6 +299,11 @@ body {
   margin-bottom: 15px;
 }
 
+@media screen and (min-width: 768px) {
+  .container3 {
+    font-size: 1.5em;
+  }
+}
 .container5 {
   flex-direction: column;
   align-items: start;
