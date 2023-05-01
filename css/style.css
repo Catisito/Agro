@@ -78,6 +78,24 @@ body {
   .container3 {
     font-size: 1.5em;
   }
+  .container4 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+  h3 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .container4 span {
+    font-size: 4em;
+  }
+  li {
+    font-size: 1.5em;
+  }
 }
 .container {
   text-align: center;
@@ -301,6 +319,24 @@ body {
 
 @media screen and (min-width: 768px) {
   .container3 {
+    font-size: 1.5em;
+  }
+  .container4 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+  h3 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .container4 span {
+    font-size: 4em;
+  }
+  li {
     font-size: 1.5em;
   }
 }
