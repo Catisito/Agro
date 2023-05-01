@@ -233,6 +233,13 @@ body {
   .grid__layout {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .grid__venta button {
+    width: 250px;
+    height: 80px;
+  }
+  .grid__venta span {
+    font-size: 1.5em;
+  }
 }
 .container3 {
   font-family: "Roboto", sans-serif;
