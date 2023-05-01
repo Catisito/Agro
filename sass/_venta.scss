@@ -12,11 +12,12 @@ $titulo: 'Pathway Extreme', sans-serif;
     text-align: center;
     gap: 20px;
     flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     width: 340px;
-    height: 500px;
+    height: 450px;
     border: 4px solid black;
     margin: 50px;
-    background-color: lightgray;
+    background-color: #174700;
 }
 
 @mixin img{
@@ -28,7 +29,7 @@ $titulo: 'Pathway Extreme', sans-serif;
     border: none;
     width: 150px;
     height: 50px;
-    background-color: #38b000;
+    background-color: #dadada;
 
 }
 
@@ -65,7 +66,8 @@ $titulo: 'Pathway Extreme', sans-serif;
     }
 
     & h3{
-        font-family: $titulo;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
         padding: 10px;
     }
 
@@ -95,13 +97,16 @@ $titulo: 'Pathway Extreme', sans-serif;
     }
 
     .grid__venta{
+        height: 500px;
         button{
-            width: 250px;
+            width: 200px;
             height: 60px;
         }
+        
+        
 
         span{
-            font-size: 1.5em;
+            font-size: 1em;
         }
     }
 

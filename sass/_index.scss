@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
 
-body{
-    overflow-x: hidden;
-
-}
-
 .container{
     text-align: center;
     flex-direction: column;
@@ -14,7 +9,7 @@ body{
     background-position: center;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
-    height: 200vh;
+    min-height: 200vh;
 
     & h2{
         font-family: 'Pathway Extreme', sans-serif;
@@ -67,4 +62,12 @@ body{
     margin: 20px;
 }
 
+
+@media screen and (min-width: 768px){
+    .container img{
+        width: 50%;
+    }
+
+    
+}
 

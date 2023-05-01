@@ -10,6 +10,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap");
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-height: 2000px;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -97,10 +102,6 @@ body {
     font-size: 1.5em;
   }
 }
-body {
-  overflow-x: hidden;
-}
-
 .container {
   text-align: center;
   flex-direction: column;
@@ -109,7 +110,7 @@ body {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: multiply;
-  height: 200vh;
+  min-height: 200vh;
 }
 .container h2 {
   font-family: "Pathway Extreme", sans-serif;
@@ -152,6 +153,11 @@ body {
   margin: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .container img {
+    width: 50%;
+  }
+}
 .boton {
   display: inline-flex;
   align-items: center;
@@ -219,18 +225,20 @@ body {
   text-align: center;
   gap: 20px;
   flex-direction: column;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   width: 340px;
-  height: 500px;
+  height: 450px;
   border: 4px solid black;
   margin: 50px;
-  background-color: lightgray;
+  background-color: #174700;
 }
 .grid__venta img {
   width: 220px;
   height: 200px;
 }
 .grid__venta h3 {
-  font-family: "Pathway Extreme", sans-serif;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
   padding: 10px;
 }
 .grid__venta span {
@@ -241,7 +249,7 @@ body {
   border: none;
   width: 150px;
   height: 50px;
-  background-color: #38b000;
+  background-color: #dadada;
 }
 .grid__venta .boton__venta {
   text-transform: uppercase;
@@ -256,12 +264,15 @@ body {
   .grid__layout {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .grid__venta {
+    height: 500px;
+  }
   .grid__venta button {
-    width: 250px;
+    width: 200px;
     height: 60px;
   }
   .grid__venta span {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 .container3 {
