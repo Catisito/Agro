@@ -57,7 +57,7 @@ $fuente-oficinas: 'Ubuntu', sans-serif;
     }
 
     & img{
-        width: 100%;
+        width: 70%;
         padding: 20px;
     }
 
@@ -109,5 +109,17 @@ $fuente-oficinas: 'Ubuntu', sans-serif;
     .container6 h2{
         font-size: 5em;
         padding: 10px;
+    }
+
+    .container5 h2{
+        font-size: 4em;
+    }
+
+    .container5 p{
+        font-size: 1.6em;
+    }
+
+    .container5 span{
+        font-size: 1.8em;
     }
 }

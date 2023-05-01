@@ -380,7 +380,7 @@ body {
   text-transform: uppercase;
 }
 .container6 img {
-  width: 100%;
+  width: 70%;
   padding: 20px;
 }
 .container6 ul {
@@ -423,6 +423,15 @@ body {
   .container6 h2 {
     font-size: 5em;
     padding: 10px;
+  }
+  .container5 h2 {
+    font-size: 4em;
+  }
+  .container5 p {
+    font-size: 1.6em;
+  }
+  .container5 span {
+    font-size: 1.8em;
   }
 }
 .container7 {
