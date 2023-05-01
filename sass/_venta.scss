@@ -33,7 +33,7 @@ $titulo: 'Pathway Extreme', sans-serif;
 }
 
 .container2{
-    height: 20vh;
+    min-height: 20vh;
     background: rgb(175,173,8);
     background: linear-gradient(90deg, rgba(175,173,8,1) 1%, rgba(26,153,21,1) 51%, rgba(175,173,8,1) 100%);
     display: flex;
@@ -81,5 +81,19 @@ $titulo: 'Pathway Extreme', sans-serif;
     & .boton__venta{
         text-transform: uppercase;
         color: #242424;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .container2{
+        min-height: 30vh;
+        font-size: 2em;
+    }
+
+    .grid__layout{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .grid__venta{
     }
 }

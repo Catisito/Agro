@@ -124,6 +124,11 @@ body {
   margin: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 20px;
+  }
+}
 .boton {
   display: inline-flex;
   align-items: center;
@@ -162,7 +167,7 @@ body {
 }
 
 .container2 {
-  height: 20vh;
+  min-height: 20vh;
   background: rgb(175, 173, 8);
   background: linear-gradient(90deg, rgb(175, 173, 8) 1%, rgb(26, 153, 21) 51%, rgb(175, 173, 8) 100%);
   display: flex;
@@ -220,6 +225,15 @@ body {
   color: #242424;
 }
 
+@media screen and (min-width: 768px) {
+  .container2 {
+    min-height: 30vh;
+    font-size: 2em;
+  }
+  .grid__layout {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 .container3 {
   font-family: "Roboto", sans-serif;
   display: flex;
