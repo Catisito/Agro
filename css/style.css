@@ -97,6 +97,10 @@ body {
     font-size: 1.5em;
   }
 }
+body {
+  overflow-x: hidden;
+}
+
 .container {
   text-align: center;
   flex-direction: column;
@@ -148,11 +152,6 @@ body {
   margin: 20px;
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 20px;
-  }
-}
 .boton {
   display: inline-flex;
   align-items: center;
@@ -444,7 +443,7 @@ body {
   background-blend-mode: multiply;
   background-image: url(../img/campo-naturalesa.jpg);
   background-position: center;
-  color: #242424;
+  color: #fff;
   min-height: 20vh;
 }
 .container7 h2 {
@@ -482,6 +481,11 @@ body {
   padding: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .container7 {
+    background-repeat: no-repeat;
+  }
+}
 header div {
   display: inline-block;
   justify-content: baseline;

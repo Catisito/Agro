@@ -14,7 +14,7 @@ $letras: 'Poppins', sans-serif;
      background-blend-mode: multiply;
      background-image: url(../img/campo-naturalesa.jpg);
      background-position: center;
-     color: #242424;
+     color: #fff;
      min-height: 20vh;
      
 
@@ -58,5 +58,11 @@ $letras: 'Poppins', sans-serif;
           font-family: $letras;
           font-weight: 600;
           padding: 10px;
+     }
+}
+
+@media screen and (min-width: 768px){
+     .container7{
+          background-repeat: no-repeat;
      }
 }

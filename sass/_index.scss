@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
+
+body{
+    overflow-x: hidden;
+
+}
+
 .container{
     text-align: center;
     flex-direction: column;
@@ -61,8 +67,4 @@
     margin: 20px;
 }
 
-@media screen and (min-width: 768px) {
-    .container{
-        max-width: 20px;
-    }
-}
+
