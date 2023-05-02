@@ -148,8 +148,39 @@ body {
   font-size: 8em;
 }
 
+.container1-2 {
+  background: rgb(142, 163, 141);
+  background: linear-gradient(90deg, rgb(142, 163, 141) 25%, rgb(255, 255, 255) 88%);
+  font-size: 1em;
+  text-align: center;
+  min-height: 40vh;
+}
+
+.container1-2 h3 {
+  padding: 10px;
+  font-size: 2em;
+}
+
+.grid__layout2 {
+  background-color: blue;
+}
+
 .grid {
-  margin: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+.grid h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 2.3em;
+}
+.grid i {
+  padding: 20px;
+  color: #2ec4b6;
+  font-size: 8em;
+}
+.grid p {
+  font-family: "Roboto", sans-serif;
 }
 
 @media screen and (min-width: 768px) {
@@ -161,9 +192,6 @@ body {
     min-width: 215vh;
     min-height: 85vh;
   }
-  .cotainer h3 .boton {
-    flex-direction: column;
-  }
   .container img {
     width: 100px;
   }
@@ -172,6 +200,12 @@ body {
   }
   .container img {
     width: 50%;
+  }
+  .container1-2 h3 {
+    font-size: 3.5em;
+  }
+  .grid_layout2 {
+    display: flex;
   }
 }
 .boton {
@@ -251,6 +285,27 @@ body {
   .boton:hover .icono {
     left: calc(100% - 180px);
     opacity: 1;
+  }
+}
+@media screen and (min-width: 600px) {
+  .boton:hover .icono {
+    left: calc(100% - 240px);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 700px) {
+  .boton:hover .icono {
+    left: calc(100% - 280px);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .boton:hover .icono {
+    left: calc(100% - 600px);
+    opacity: 1;
+  }
+  .boton .icono {
+    left: 480px;
   }
 }
 .container2 {
