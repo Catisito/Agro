@@ -177,7 +177,7 @@ body {
 .grid i {
   padding: 20px;
   color: #2ec4b6;
-  font-size: 8em;
+  font-size: 6em;
 }
 .grid p {
   font-family: "Roboto", sans-serif;
@@ -204,6 +204,12 @@ body {
   }
   .container1-2 h3 {
     font-size: 3.5em;
+  }
+  .grid h4 {
+    padding: 10px;
+  }
+  .grid i {
+    font-size: 10em;
   }
   .grid_layout2 {
     display: flex;
