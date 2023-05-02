@@ -1,40 +1,55 @@
 
 .boton{
-    display: inline-flex;
+    display: inline-block;
     align-items: center;
-    width: 90%;
-    height: 60px;
-    background: #141414;
-    color: #fff;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    background-color: #fff;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     font-weight: 600;
+    text-transform: uppercase;
     border: none;
-    cursor: pointer;
-    font-size: 1em;
-    transition: 0.3s ease all;
+    border-radius: 5px;
+}
 
-    & .icono{
-        display: flex;
-        align-items: center;
-        position: absolute;
-        z-index: 2;
-        left: 50px;
-        transition: .3s ease-in-out all;
-        opacity: 0;
-    }
+.boton span{
+    color: #242424;
+    font-size: 0.8em;
+}
 
-    &:hover{
-        background-color: #008000;
-    }
+.boton .icono{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    left: 60px;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
 
-    &:hover .icono{
-        left: calc(400px - 150px);
-        opacity: 0;
-    }
+.boton:hover{
+    background: #a7c957;
+}
+
+.boton svg{
+    color: #283618;
+    font-weight: 600;
+    width: 35px;
+    height: 28px;
+}
+
+.boton:hover .icono{
+    left: calc(100% - 140px);
+    opacity: 1;
+}
+
+.boton span{
+    transition: .4s ease-in-out;
     
-    & span{
-        font-size: 1em;
-        color: #fff;
-    }
+    
 }
 
 .elboton{
@@ -56,6 +71,13 @@
         background-color: #52b788;
         transition: all 0.5s ease 0s;
         font-size: 1.2em;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .boton:hover .icono{
+        left: calc(100% - 180px);
         opacity: 1;
     }
 }

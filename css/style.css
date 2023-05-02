@@ -115,12 +115,12 @@ body {
   font-family: "Pathway Extreme", sans-serif;
   color: #fff;
   padding: 10px;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   text-align: start;
 }
 .container img {
-  width: 100%;
+  max-width: 100%;
   padding: 20px;
 }
 .container h3 {
@@ -154,44 +154,61 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 200vh;
+    min-width: 220vh;
   }
   .container img {
     width: 50%;
   }
 }
 .boton {
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
-  width: 90%;
-  height: 60px;
-  background: #141414;
-  color: #fff;
+  align-items: center;
+  width: 300px;
+  height: 70px;
+  background-color: #fff;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
   font-weight: 600;
+  text-transform: uppercase;
   border: none;
-  cursor: pointer;
-  font-size: 1em;
-  transition: 0.3s ease all;
+  border-radius: 5px;
 }
+
+.boton span {
+  color: #242424;
+  font-size: 0.8em;
+}
+
 .boton .icono {
   display: flex;
   align-items: center;
   position: absolute;
   z-index: 2;
-  left: 50px;
-  transition: 0.3s ease-in-out all;
+  left: 60px;
   opacity: 0;
+  transition: 0.3s ease-in-out;
 }
+
 .boton:hover {
-  background-color: #008000;
+  background: #a7c957;
 }
+
+.boton svg {
+  color: #283618;
+  font-weight: 600;
+  width: 35px;
+  height: 28px;
+}
+
 .boton:hover .icono {
-  left: 250px;
-  opacity: 0;
+  left: calc(100% - 140px);
+  opacity: 1;
 }
+
 .boton span {
-  font-size: 1em;
-  color: #fff;
+  transition: 0.4s ease-in-out;
 }
 
 .elboton {
@@ -213,6 +230,12 @@ body {
     background-color: #52b788;
     transition: all 0.5s ease 0s;
     font-size: 1.2em;
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 500px) {
+  .boton:hover .icono {
+    left: calc(100% - 180px);
     opacity: 1;
   }
 }
