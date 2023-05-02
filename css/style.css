@@ -104,12 +104,12 @@ body {
 }
 .container {
   text-align: center;
-  flex-direction: column;
   background-image: url(../img/pexels-tom-fisk-1595108.jpg);
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: multiply;
+  min-height: 70vh;
 }
 .container h2 {
   font-family: "Pathway Extreme", sans-serif;
@@ -154,7 +154,18 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 220vh;
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    justify-content: space-between;
+    min-width: 215vh;
+    min-height: 85vh;
+  }
+  .container img {
+    width: 100px;
+  }
+  .container h2 {
+    text-align: start;
   }
   .container img {
     width: 50%;
