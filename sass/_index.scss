@@ -104,14 +104,15 @@
     .container{
         display: flex;
         align-items: center;
-        font-size: 1.4em;
+        font-size: 1.5em;
         justify-content: space-between;
-        min-width: 215vh;
-        min-height: 85vh;
-    }
+        min-width: 199vh;
+        min-height: 95vh;
 
-    .container img{
-        width: 100px;
+        & img{
+            max-width: 80%;
+            padding: 50px;
+        }
     }
 
     .container h2{
