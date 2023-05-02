@@ -110,13 +110,12 @@ body {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: multiply;
-  min-height: 200vh;
 }
 .container h2 {
   font-family: "Pathway Extreme", sans-serif;
   color: #fff;
-  padding: 30px;
-  font-size: 2.4em;
+  padding: 10px;
+  font-size: 3em;
   text-align: center;
   text-align: start;
 }
@@ -154,6 +153,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    min-width: 200vh;
+  }
   .container img {
     width: 50%;
   }
@@ -565,7 +567,6 @@ header div img {
 
 .footer {
   display: flex;
-  text-align: center;
   flex-direction: column;
   align-items: center;
   background-color: #143d55;
