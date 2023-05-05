@@ -166,7 +166,7 @@ body {
 }
 
 .grid {
-  background-color: #fff;
+  background-color: #588157;
   text-align: center;
 }
 .grid h4 {
@@ -176,7 +176,7 @@ body {
 }
 .grid i {
   padding: 20px;
-  color: #2ec4b6;
+  color: #242424;
   font-size: 6em;
 }
 .grid p {
@@ -204,6 +204,12 @@ body {
   }
   .container1-2 h3 {
     font-size: 3.5em;
+  }
+  .grid {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
   .grid h4 {
     padding: 10px;
