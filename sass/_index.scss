@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
+$titulo-index: 'Pathway Extreme', sans-serif;
 
 .container{
     text-align: center;
@@ -12,16 +13,16 @@
     
 
     & h2{
-        font-family: 'Pathway Extreme', sans-serif;
+        font-family: $titulo-index;
         color: #fff;
         padding: 10px;
-        font-size: 2em;
+        font-size: 2.5em;
+        margin-bottom: 50px;
         text-align: center;
-        text-align: start;
     }
     
     & img{
-        max-width: 100%;
+        width: 100%;
         padding: 20px;
     }
 
@@ -64,16 +65,13 @@
     font-size: 1em;
     text-align: center;
     min-height: 40vh;
+    
+    & h3{
+        padding: 10px;
+        font-size: 2em;
+    }
 }
 
-.container1-2 h3{
-    padding: 10px;
-    font-size: 2em;
-}
-
-.grid__layout2{
-    background-color: blue;
-}
 
 .grid{
     background-color: #588157;
@@ -81,7 +79,6 @@
 
     & h4{
         font-family: 'Roboto', sans-serif;
-        font-weight: 600;
         font-size: 2.3em;
     }
 
@@ -93,11 +90,10 @@
 
     p{
         font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 10px;
     }
 }
-
-
-
 
 @media screen and (min-width: 768px){
 
@@ -107,25 +103,27 @@
         font-size: 1.5em;
         justify-content: space-between;
         min-width: 215vh;
-        min-height: 95vh;
+        min-height: 100vh;
 
         & img{
             max-width: 80%;
             padding: 50px;
-        }
-    }
 
-    .container h2{
-        text-align: start;
-    }
-    
-    .container img{
-        width: 50%;
+
+        & h2{
+                text-align: start;
+            }
+            
+        & img{
+                width: 50%;
+            }
+        }
     }
 
     .container1-2 h3{
         font-size: 3.5em;
     }
+
 
     .grid{
         min-height: 70vh;
