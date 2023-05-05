@@ -1,6 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
 $titulo: 'Pathway Extreme', sans-serif;
 
+@mixin grid__layout{
+    display: grid;
+    justify-content: center;
+}
+
+@mixin grid_venta{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    width: 340px;
+    height: 450px;
+    border: 4px solid black;
+    margin: 50px;
+    background-color: #174700;
+}
+
+@mixin img{
+    width: 220px;
+    height: 200px;
+}
 
 @mixin boton{
     border: none;
@@ -69,6 +92,33 @@ $titulo: 'Pathway Extreme', sans-serif;
         font-size: 2em;
     }
 
-   
+    .grid__layout{
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .grid__venta{
+        height: 500px;
+
+        .elboton{
+            width: 200px;
+            height: 60px;
+        }
+
+        span{
+            color: white;
+            font-size: 1em;
+        }
+
+        h3{
+            font-size: 2em;
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 1244px){
+    .grid__layout{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

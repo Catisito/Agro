@@ -1,18 +1,701 @@
-/* Error: Undefined mixin.
- *    ,
- * 34 |     @include grid__layout();
- *    |     ^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   sass\_venta.scss 34:5  @import
- *   sass\style.scss 5:9    root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 34 \2502      @include grid__layout();\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   sass\\_venta.scss 34:5  @import\a   sass\\style.scss 5:9    root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap");
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-height: 2000px;
+  }
 }
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+.container3 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #bc4749;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 20px;
+  padding: 5px;
+  gap: 5px;
+  font-weight: 600;
+}
+.container3 h2 {
+  font-size: 2em;
+}
+.container3 #telephone {
+  font-size: 1.4em;
+}
+.container3 #horarios {
+  font-size: 1.2em;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  min-height: auto;
+  padding: 10px;
+  gap: 20px;
+  background-color: #f2e8cf;
+}
+.container4 h3 {
+  font-family: "Pathway Extreme", sans-serif;
+  text-transform: uppercase;
+}
+.container4 span {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  background-color: #bc4749;
+  color: #fff;
+  font-weight: 600;
+}
+.container4 ul li {
+  font-weight: 600;
+  list-style: decimal;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .container3 {
+    font-size: 1em;
+  }
+  .container4 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+  h3 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .container4 span {
+    font-size: 4em;
+  }
+  li {
+    font-size: 1.5em;
+  }
+}
+.container {
+  text-align: center;
+  background-image: url(../img/pexels-tom-fisk-1595108.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  min-height: 70vh;
+}
+.container h2 {
+  font-family: "Pathway Extreme", sans-serif;
+  color: #fff;
+  padding: 10px;
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.container img {
+  width: 100%;
+  padding: 20px;
+}
+.container h3 {
+  color: white;
+  font-size: 2em;
+}
+.container p {
+  color: #fff;
+  font-size: 1.1em;
+}
+.container span {
+  color: gold;
+}
+.container h4 {
+  display: grid;
+  color: white;
+  font-size: 3em;
+}
+.container p {
+  padding: 10px;
+}
+.container i {
+  padding: 20px;
+  color: white;
+  font-size: 8em;
+}
+
+.container1-2 {
+  background: rgb(142, 163, 141);
+  background: linear-gradient(90deg, rgb(142, 163, 141) 25%, rgb(255, 255, 255) 88%);
+  font-size: 1em;
+  text-align: center;
+  min-height: 40vh;
+}
+.container1-2 h3 {
+  padding: 10px;
+  font-size: 2em;
+}
+
+.grid {
+  background-color: #588157;
+  text-align: center;
+}
+.grid h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.3em;
+}
+.grid i {
+  padding: 20px;
+  color: #242424;
+  font-size: 6em;
+}
+.grid p {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    justify-content: space-between;
+    min-width: 215vh;
+    min-height: 100vh;
+  }
+  .container img {
+    max-width: 80%;
+    padding: 50px;
+  }
+  .container img h2 {
+    text-align: start;
+  }
+  .container img img {
+    width: 50%;
+  }
+  .container1-2 h3 {
+    font-size: 3.5em;
+  }
+  .grid {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .grid h4 {
+    padding: 10px;
+  }
+  .grid i {
+    font-size: 10em;
+  }
+  .grid_layout2 {
+    display: flex;
+  }
+}
+.boton {
+  display: inline-block;
+  align-items: center;
+  align-items: center;
+  width: 300px;
+  height: 70px;
+  background-color: #fff;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+}
+
+.boton span {
+  color: #242424;
+  font-size: 0.8em;
+}
+
+.boton .icono {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  left: 60px;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.boton:hover {
+  background: #a7c957;
+}
+
+.boton svg {
+  color: #283618;
+  font-weight: 600;
+  width: 35px;
+  height: 28px;
+}
+
+.boton:hover .icono {
+  left: calc(100% - 140px);
+  opacity: 1;
+}
+
+.boton span {
+  transition: 0.4s ease-in-out;
+}
+
+.elboton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.iconos {
+  opacity: 1;
+  align-items: center;
+  margin-right: 3px;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .grid__venta .elboton:hover {
+    background-color: #52b788;
+    transition: all 0.5s ease 0s;
+    font-size: 1.2em;
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 500px) {
+  .boton:hover .icono {
+    left: calc(100% - 180px);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 600px) {
+  .boton:hover .icono {
+    left: calc(100% - 240px);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 700px) {
+  .boton:hover .icono {
+    left: calc(100% - 280px);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .boton:hover .icono {
+    left: calc(100% - 600px);
+    opacity: 1;
+  }
+  .boton .icono {
+    left: 480px;
+  }
+}
+.container2 {
+  min-height: 20vh;
+  background: rgb(175, 173, 8);
+  background: linear-gradient(90deg, rgb(175, 173, 8) 1%, rgb(26, 153, 21) 51%, rgb(175, 173, 8) 100%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.container2 h2 {
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 2em;
+}
+.container2 p {
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.grid__layout {
+  display: grid;
+  justify-content: center;
+  background-color: green;
+}
+
+.grid__venta {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  flex-direction: column;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  width: 340px;
+  height: 450px;
+  border: 4px solid black;
+  margin: 50px;
+  background-color: #174700;
+}
+.grid__venta img {
+  width: 220px;
+  height: 200px;
+}
+.grid__venta h3 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.grid__venta span {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.grid__venta .elboton {
+  border: none;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+}
+.grid__venta .boton__venta {
+  text-transform: uppercase;
+  color: #242424;
+}
+
+@media screen and (min-width: 768px) {
+  .container2 {
+    min-height: 30vh;
+    font-size: 2em;
+  }
+  .grid__layout {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid__venta {
+    height: 500px;
+  }
+  .grid__venta .elboton {
+    width: 200px;
+    height: 60px;
+  }
+  .grid__venta span {
+    color: white;
+    font-size: 1em;
+  }
+  .grid__venta h3 {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .grid__layout {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.container3 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #bc4749;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 20px;
+  padding: 5px;
+  gap: 5px;
+  font-weight: 600;
+}
+.container3 h2 {
+  font-size: 2em;
+}
+.container3 #telephone {
+  font-size: 1.4em;
+}
+.container3 #horarios {
+  font-size: 1.2em;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  min-height: auto;
+  padding: 10px;
+  gap: 20px;
+  background-color: #f2e8cf;
+}
+.container4 h3 {
+  font-family: "Pathway Extreme", sans-serif;
+  text-transform: uppercase;
+}
+.container4 span {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  background-color: #bc4749;
+  color: #fff;
+  font-weight: 600;
+}
+.container4 ul li {
+  font-weight: 600;
+  list-style: decimal;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .container3 {
+    font-size: 1em;
+  }
+  .container4 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+  h3 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .container4 span {
+    font-size: 4em;
+  }
+  li {
+    font-size: 1.5em;
+  }
+}
+.container5 {
+  flex-direction: column;
+  align-items: start;
+  min-height: 20vh;
+  margin-top: 0;
+  padding: 10px;
+  background-color: #f2e8cf;
+}
+.container5 h2 {
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 2.5em;
+  text-align: start;
+  text-transform: uppercase;
+}
+.container5 p {
+  font-size: 1.2em;
+  text-align: start;
+  text-transform: uppercase;
+}
+.container5 span {
+  font-size: 1.2em;
+  font-family: "Ysabeau", sans-serif;
+  margin-right: 15px;
+  color: black;
+  font-weight: 600;
+}
+
+.container6 {
+  text-align: center;
+  background-color: #fefae0;
+  min-height: 75vh;
+}
+.container6 h2 {
+  color: #219ebc;
+  width: 250px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.container6 img {
+  width: 70%;
+  padding: 20px;
+}
+.container6 ul {
+  list-style: inside;
+}
+.container6 li {
+  font-weight: 600;
+  list-style: inside;
+  text-align: start;
+  font-size: 1em;
+}
+
+.container__fondo {
+  background-color: #fefae0;
+}
+
+@media screen and (min-width: 768px) {
+  .container5 {
+    text-align: center;
+  }
+  .container5 h2 {
+    text-align: center;
+  }
+  .container5 p {
+    text-align: center;
+  }
+  .container6 {
+    min-height: 400px;
+  }
+  .container6 img {
+    width: 500px;
+    margin: 50px;
+  }
+  .container6 ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+  }
+  .container6 h2 {
+    font-size: 5em;
+    padding: 10px;
+  }
+  .container5 h2 {
+    font-size: 4em;
+  }
+  .container5 p {
+    font-size: 1.6em;
+  }
+  .container5 span {
+    font-size: 1.8em;
+  }
+}
+.container7 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #242424;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  background-image: url(../img/campo-naturalesa.jpg);
+  background-size: 100%;
+  background-position: center;
+  color: #fff;
+  min-height: 20vh;
+}
+.container7 h2 {
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 3em;
+  background-color: rgba(0, 0, 0, 0.1843137255);
+}
+.container7 p {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: 0rem;
+  background-color: rgba(0, 0, 0, 0.1843137255);
+}
+
+.container8 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #14213d;
+}
+.container8 h3 {
+  color: #588157;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
+  padding: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 600;
+}
+.container8 img {
+  width: 60%;
+  padding: 10px;
+}
+.container8 p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .container7 {
+    min-height: 50vh;
+  }
+  .container7 h2 {
+    font-size: 6em;
+  }
+  .container8 h3 {
+    padding: 10px;
+    line-height: 2;
+    letter-spacing: 0.063em;
+    min-height: 30vh;
+    font-size: 3em;
+  }
+  .container8 img {
+    width: 50vw;
+  }
+  .container8 p {
+    padding: 50px;
+  }
+}
+header div {
+  display: inline-block;
+  justify-content: baseline;
+  background-color: #2a6f97;
+}
+header div h1 {
+  font-family: "Chivo Mono", monospace;
+  font-size: 2.5em;
+}
+header div img {
+  height: 60px;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.nav-link:hover {
+  transition: all 0.3s ease 0s;
+  color: #fff;
+  margin: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #143d55;
+}
+.footer img {
+  width: 100px;
+  margin: 10px;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer__span {
+  font-size: 1.2em;
+  color: #fff;
+  text-decoration: none;
+}
+.footer__derechos {
+  font-size: 0.8em;
+  color: #7a7a7a;
+}
+
+/*# sourceMappingURL=style.css.map */
