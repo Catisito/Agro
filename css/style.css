@@ -319,9 +319,7 @@ body {
 }
 .container2 {
   min-height: 20vh;
-  background: rgb(175, 173, 8);
-  background: linear-gradient(90deg, rgb(175, 173, 8) 1%, rgb(26, 153, 21) 51%, rgb(175, 173, 8) 100%);
-  display: flex;
+  background-color: #588157;
   justify-content: center;
   text-align: center;
   flex-direction: column;
@@ -338,7 +336,7 @@ body {
 .grid__layout {
   display: grid;
   justify-content: center;
-  background-color: green;
+  background-color: #283618;
 }
 
 .grid__venta {
@@ -352,7 +350,7 @@ body {
   height: 450px;
   border: 4px solid black;
   margin: 50px;
-  background-color: #174700;
+  background-color: #344e41;
 }
 .grid__venta img {
   width: 220px;
