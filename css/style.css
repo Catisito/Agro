@@ -39,16 +39,15 @@ body {
   min-height: 20px;
   padding: 5px;
   gap: 5px;
-  font-weight: 600;
 }
 .container3 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .container3 #telephone {
-  font-size: 1.4em;
+  font-size: 1em;
 }
 .container3 #horarios {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .container4 {
@@ -417,16 +416,15 @@ body {
   min-height: 20px;
   padding: 5px;
   gap: 5px;
-  font-weight: 600;
 }
 .container3 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .container3 #telephone {
-  font-size: 1.4em;
+  font-size: 1em;
 }
 .container3 #horarios {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .container4 {

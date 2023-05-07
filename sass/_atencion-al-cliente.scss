@@ -25,19 +25,18 @@ $color: #bc4749;
     min-height: 20px;
     padding: 5px;
     gap: 5px;
-    font-weight: 600;
 
     & h2{
-        font-size: 2em;
+        font-size: 1.5em;
         
     }
 
     & #telephone{
-        font-size: 1.4em;
+        font-size: 1em;
     }
 
     & #horarios{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
@@ -53,7 +52,7 @@ $color: #bc4749;
         text-align: center;
         text-transform: uppercase;
         font-size: 1.6em;
-        background-color: #bc4749;
+        background-color: $color;
         color: #fff;
         font-weight: 600;
     }
