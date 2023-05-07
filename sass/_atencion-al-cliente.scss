@@ -28,7 +28,6 @@ $color: #bc4749;
 
     & h2{
         font-size: 1.5em;
-        
     }
 
     & #telephone{
@@ -68,6 +67,18 @@ $color: #bc4749;
 @media screen and (min-width: 768px){
     .container3{
         font-size: 1em;
+
+        & h2{
+            font-size: 2.3em;
+        }
+
+        & #telephone{
+            font-size: 1.6em;
+        }
+
+        & #horarios{
+            font-size: 1.3em;
+        }
     }
 
     .container4{
