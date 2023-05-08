@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
 $titulo-index: 'Pathway Extreme', sans-serif;
+$parrafo-cartas: 'Nunito', sans-serif;
+
+
 
 .container{
     text-align: center;
@@ -89,7 +92,8 @@ $titulo-index: 'Pathway Extreme', sans-serif;
     }
 
     p{
-        font-family: 'Roboto', sans-serif;
+        font-family: $parrafo-cartas;
+        font-size: 1.5em;
         margin: 0;
         padding: 10px;
     }
@@ -127,18 +131,20 @@ $titulo-index: 'Pathway Extreme', sans-serif;
 
     .grid{
         min-height: 70vh;
+        width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
+    
+        & h4{
+            padding: 10px;
+        }
+
+        & i{
+            font-size: 10em;
+        }
     }
 
-    .grid h4{
-        padding: 10px;
-    }
-
-    .grid i{
-        font-size: 10em;
-    }
 
     .grid_layout2{
         display: flex;

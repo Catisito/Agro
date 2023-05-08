@@ -13,7 +13,7 @@ $color: #bc4749;
     background-color: #f2e8cf;
 }
 
-.container3{
+@mixin container-atencion-cliente{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     display: flex;
@@ -25,6 +25,9 @@ $color: #bc4749;
     min-height: 20px;
     padding: 5px;
     gap: 5px;
+}
+
+.container3{
 
     & h2{
         font-size: 1.5em;
@@ -37,6 +40,8 @@ $color: #bc4749;
     & #horarios{
         font-size: 1em;
     }
+
+    @include container-atencion-cliente()
 }
 
 .container4{

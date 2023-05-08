@@ -51,7 +51,7 @@ $letras: 'Poppins', sans-serif;
      & h3{
           color: #fff;
           font-family: $titulo-ambientes;
-          font-size: 2em;
+          font-size: 1.5em;
           padding: 3px;
           text-align: center;
           text-transform: uppercase;
@@ -75,25 +75,29 @@ $letras: 'Poppins', sans-serif;
 @media screen and (min-width: 768px){
      .container7{
           min-height: 50vh;
+
+          & h2{
+               font-size: 6em;
+          }
      }
 
-     .container7 h2{
-          font-size: 6em;
-     }
-
-     .container8 h3{
+     .container8{
+          
+          & h3{
           padding: 10px;
-          line-height: 2;
+          line-height: 3;
           letter-spacing: 0.063em;
           min-height: 30vh;
           font-size: 3em;
-     }
+          }
 
-     .container8 img{
-          width: 50vw;
-     }
+          & img{
+               width: 50vw;
+          }
 
-     .container8 p{
-          padding: 50px;
+          & p{
+               font-size: 1.3em;
+               padding: 20px;
+          }
      }
 }

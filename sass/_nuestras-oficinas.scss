@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
+$color-ubicacion: #219ebc;
 $fuente-primaria: 'Pathway Extreme', sans-serif;
 $fuente-span: 'Ysabeau', sans-serif;
 $fuente-oficinas: 'Ubuntu', sans-serif;
@@ -49,7 +50,7 @@ $fuente-oficinas: 'Ubuntu', sans-serif;
     min-height: 75vh;
 
     & h2{
-        color: #219ebc;
+        color: $color-ubicacion;
         width: 250px;
         font-family: $fuente-oficinas;
         font-size: 3em;
@@ -80,51 +81,46 @@ $fuente-oficinas: 'Ubuntu', sans-serif;
 @media screen and (min-width: 768px) {
     .container5 {
         text-align: center;
-    }
 
-    .container5 h2{
-        text-align: center;
-    }
+        & h2{
+            font-size: 4em;
+            text-align: center;
+        }
 
-    .container5 p{
-        text-align: center;
+        & p{
+            font-size: 1.6em;
+            text-align: center;
+        }
+
+        & span{
+            font-size: 1.8em;
+        }
+
+        & span:hover{
+            color: #585858;
+        }
+
+
     }
 
     .container6{
         min-height: 400px;
-    }
 
-    .container6 img{
-        width: 500px;
-        margin: 50px;
-    }
+        & img{
+            width: 500px;
+            margin: 50px;
+        }
 
-    .container6 ul{
-        display: inline-block;
-        padding: 0;
-        margin: 0;
-        font-size: 1.5em;
-    
-    }
-    .container6 h2{
-        font-size: 5em;
-        padding: 10px;
-    }
+        & ul{
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            font-size: 1.5em;
+        }
 
-    .container5 h2{
-        font-size: 4em;
+        & h2{
+            font-size: 5em;
+            padding: 10px;
+        }
     }
-
-    .container5 p{
-        font-size: 1.6em;
-    }
-
-    .container5 span{
-        font-size: 1.8em;
-    }
-
-    .container5 span:hover{
-        color: #585858;
-    }
-
 }

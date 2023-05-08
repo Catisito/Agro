@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
@@ -183,7 +183,8 @@ body {
   font-size: 6em;
 }
 .grid p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5em;
   margin: 0;
   padding: 10px;
 }
@@ -212,6 +213,7 @@ body {
   }
   .grid {
     min-height: 70vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -557,10 +559,18 @@ body {
     text-align: center;
   }
   .container5 h2 {
+    font-size: 4em;
     text-align: center;
   }
   .container5 p {
+    font-size: 1.6em;
     text-align: center;
+  }
+  .container5 span {
+    font-size: 1.8em;
+  }
+  .container5 span:hover {
+    color: #585858;
   }
   .container6 {
     min-height: 400px;
@@ -578,18 +588,6 @@ body {
   .container6 h2 {
     font-size: 5em;
     padding: 10px;
-  }
-  .container5 h2 {
-    font-size: 4em;
-  }
-  .container5 p {
-    font-size: 1.6em;
-  }
-  .container5 span {
-    font-size: 1.8em;
-  }
-  .container5 span:hover {
-    color: #585858;
   }
 }
 .container7 {
@@ -627,7 +625,7 @@ body {
 .container8 h3 {
   color: #fff;
   font-family: "Ubuntu", sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 3px;
   text-align: center;
   text-transform: uppercase;
@@ -653,7 +651,7 @@ body {
   }
   .container8 h3 {
     padding: 10px;
-    line-height: 2;
+    line-height: 3;
     letter-spacing: 0.063em;
     min-height: 30vh;
     font-size: 3em;
@@ -662,7 +660,8 @@ body {
     width: 50vw;
   }
   .container8 p {
-    padding: 50px;
+    font-size: 1.3em;
+    padding: 20px;
   }
 }
 header div {
