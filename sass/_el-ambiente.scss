@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+$color: #344e41;
 $titulo: 'Pathway Extreme', sans-serif;
 $titulo-ambientes: 'Ubuntu', sans-serif;
 $letras: 'Poppins', sans-serif;
-.container7{
+
+@mixin flex-ambiente{
      display: flex;
      justify-content: center;
      flex-direction: column;
@@ -17,7 +19,9 @@ $letras: 'Poppins', sans-serif;
      background-position: center;
      color: #fff;
      min-height: 20vh;
-     
+}
+
+.container7{
 
      & h2{
           font-family: $titulo;
@@ -33,17 +37,19 @@ $letras: 'Poppins', sans-serif;
 
      }
 
+     @include flex-ambiente()
+
 }
 
 .container8{
      display: flex;
      align-items: center;
      flex-direction: column;
-     background-color: #14213d;
+     background-color: $color;
      
 
      & h3{
-          color: #588157;
+          color: #fff;
           font-family: $titulo-ambientes;
           font-size: 2em;
           padding: 3px;

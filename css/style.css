@@ -97,17 +97,17 @@ body {
     text-align: center;
     gap: 50px;
   }
-  h3 {
+  .container4 h3 {
     font-size: 2.5em;
   }
-  p {
+  .container4 p {
     font-size: 1.5em;
   }
   .container4 span {
     font-size: 4em;
     padding: 10px;
   }
-  li {
+  .container4 li {
     font-size: 1.5em;
   }
 }
@@ -241,10 +241,25 @@ body {
   border: none;
   border-radius: 5px;
 }
-
 .boton span {
   color: #242424;
   font-size: 0.8em;
+}
+.boton svg {
+  color: #283618;
+  font-weight: 600;
+  width: 35px;
+  height: 28px;
+}
+.boton:hover {
+  background: #a7c957;
+}
+.boton:hover .icono {
+  left: calc(100% - 140px);
+  opacity: 1;
+}
+.boton span {
+  transition: 0.4s ease-in-out;
 }
 
 .boton .icono {
@@ -255,17 +270,6 @@ body {
   left: 60px;
   opacity: 0;
   transition: 0.3s ease-in-out;
-}
-
-.boton:hover {
-  background: #a7c957;
-}
-
-.boton svg {
-  color: #283618;
-  font-weight: 600;
-  width: 35px;
-  height: 28px;
 }
 
 .boton:hover .icono {
@@ -483,17 +487,17 @@ body {
     text-align: center;
     gap: 50px;
   }
-  h3 {
+  .container4 h3 {
     font-size: 2.5em;
   }
-  p {
+  .container4 p {
     font-size: 1.5em;
   }
   .container4 span {
     font-size: 4em;
     padding: 10px;
   }
-  li {
+  .container4 li {
     font-size: 1.5em;
   }
 }
@@ -624,10 +628,10 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #14213d;
+  background-color: #344e41;
 }
 .container8 h3 {
-  color: #588157;
+  color: #fff;
   font-family: "Ubuntu", sans-serif;
   font-size: 2em;
   padding: 3px;

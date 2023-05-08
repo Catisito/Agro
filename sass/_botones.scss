@@ -1,5 +1,4 @@
-
-.boton{
+@mixin boton{
     display: inline-block;
     align-items: center;
     align-items: center;
@@ -15,12 +14,7 @@
     border-radius: 5px;
 }
 
-.boton span{
-    color: #242424;
-    font-size: 0.8em;
-}
-
-.boton .icono{
+@mixin animacion-boton{
     display: flex;
     align-items: center;
     position: absolute;
@@ -30,26 +24,53 @@
     transition: .3s ease-in-out;
 }
 
-.boton:hover{
-    background: #a7c957;
-}
 
-.boton svg{
-    color: #283618;
-    font-weight: 600;
-    width: 35px;
-    height: 28px;
-}
+.boton{
 
+    & span{
+        color: #242424;
+        font-size: 0.8em;
+    }
+
+    & svg{
+        color: #283618;
+        font-weight: 600;
+        width: 35px;
+        height: 28px;
+    }
+
+    &:hover{
+        background: #a7c957;
+    }
+
+
+    &:hover .icono{
+        left: calc(100% - 140px);
+        opacity: 1;
+    }
+
+    & span{
+        transition: .4s ease-in-out;
+    }
+    
+    @include boton()
+}
+.boton .icono{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    left: 60px;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
 .boton:hover .icono{
     left: calc(100% - 140px);
     opacity: 1;
 }
 
 .boton span{
-    transition: .4s ease-in-out;
-    
-    
+    transition: .4s ease-in-out;    
 }
 
 .elboton{
