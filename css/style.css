@@ -590,6 +590,9 @@ body {
   .container5 span {
     font-size: 1.8em;
   }
+  .container5 span span:hover {
+    color: red;
+  }
 }
 .container7 {
   display: flex;
