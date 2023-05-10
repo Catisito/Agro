@@ -1,15 +1,8 @@
-@media (min-width: 1200px){
-    .container, .container-lg, .container-md, .container-sm, .container-xl {
-        max-height: 2000px;
-    
-       }
-    }
-
 *{
     padding: 0;
     margin: 0;
     list-style: none;
-    box-sizing: border-box;
+    box-sizing: border-box!important;
 }
 
 body{
