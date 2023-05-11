@@ -44,7 +44,7 @@ $color-grid-carta: #a3b18a;
     flex-direction: column;
 }
 
-.container2{
+.container-titulo-maquinaria{
 
     & h2{
         font-family: $titulo;
@@ -93,7 +93,7 @@ $color-grid-carta: #a3b18a;
 }
 
 @media screen and (min-width: 768px){
-    .container2{
+    .container-titulo-maquinaria{
         min-height: 30vh;
         font-size: 2em;
     }
