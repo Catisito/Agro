@@ -486,7 +486,7 @@ body {
     font-size: 1.5em;
   }
 }
-.container5 {
+.container-titulo-oficinas {
   flex-direction: column;
   align-items: start;
   min-height: 20vh;
@@ -494,18 +494,18 @@ body {
   padding: 10px;
   background-color: #f2e8cf;
 }
-.container5 h2 {
+.container-titulo-oficinas h2 {
   font-family: "Pathway Extreme", sans-serif;
   font-size: 2.5em;
   text-align: start;
   text-transform: uppercase;
 }
-.container5 p {
+.container-titulo-oficinas p {
   font-size: 1.2em;
   text-align: start;
   text-transform: uppercase;
 }
-.container5 span {
+.container-titulo-oficinas span {
   font-size: 1.2em;
   font-family: "Ysabeau", sans-serif;
   margin-right: 15px;
@@ -513,26 +513,26 @@ body {
   font-weight: 600;
 }
 
-.container6 {
+.container-oficinas {
   text-align: center;
   background-color: #fefae0;
   min-height: 75vh;
 }
-.container6 h2 {
+.container-oficinas h2 {
   color: #219ebc;
   width: 250px;
   font-family: "Ubuntu", sans-serif;
   font-size: 3em;
   text-transform: uppercase;
 }
-.container6 img {
+.container-oficinas img {
   width: 70%;
   padding: 20px;
 }
-.container6 ul {
+.container-oficinas ul {
   list-style: inside;
 }
-.container6 li {
+.container-oficinas li {
   font-weight: 600;
   list-style: inside;
   text-align: start;
@@ -544,37 +544,37 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .container5 {
+  .container-titulo-oficinas {
     text-align: center;
   }
-  .container5 h2 {
+  .container-titulo-oficinas h2 {
     font-size: 4em;
     text-align: center;
   }
-  .container5 p {
+  .container-titulo-oficinas p {
     font-size: 1.6em;
     text-align: center;
   }
-  .container5 span {
+  .container-titulo-oficinas span {
     font-size: 1.8em;
   }
-  .container5 span:hover {
+  .container-titulo-oficinas span:hover {
     color: #585858;
   }
-  .container6 {
+  .container-oficinas {
     min-height: 400px;
   }
-  .container6 img {
+  .container-oficinas img {
     width: 500px;
     margin: 50px;
   }
-  .container6 ul {
+  .container-oficinas ul {
     display: inline-block;
     padding: 0;
     margin: 0;
     font-size: 1.5em;
   }
-  .container6 h2 {
+  .container-oficinas h2 {
     font-size: 5em;
     padding: 10px;
   }

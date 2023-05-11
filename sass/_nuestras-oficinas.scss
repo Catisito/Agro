@@ -17,7 +17,7 @@ $fuente-oficinas: 'Ubuntu', sans-serif;
 }
 
 
-.container5{
+.container-titulo-oficinas{
 
     & h2{
         font-family: $fuente-primaria;
@@ -44,7 +44,7 @@ $fuente-oficinas: 'Ubuntu', sans-serif;
     @include flex()
 }
 
-.container6{
+.container-oficinas{
     text-align: center;
     background-color: #fefae0;
     min-height: 75vh;
@@ -79,7 +79,7 @@ $fuente-oficinas: 'Ubuntu', sans-serif;
 }
 
 @media screen and (min-width: 768px) {
-    .container5 {
+    .container-titulo-oficinas {
         text-align: center;
 
         & h2{
@@ -103,7 +103,7 @@ $fuente-oficinas: 'Ubuntu', sans-serif;
 
     }
 
-    .container6{
+    .container-oficinas{
         min-height: 400px;
 
         & img{
