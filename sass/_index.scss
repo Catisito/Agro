@@ -5,7 +5,7 @@ $parrafo-cartas: 'Nunito', sans-serif;
 
 
 
-.container{
+.container-principal{
     min-height: 40vh;
     background-image: url(../img/pexels-tom-fisk-1595108.jpg);
     background-size: cover;
@@ -58,7 +58,7 @@ $parrafo-cartas: 'Nunito', sans-serif;
 
 }
 
-.container1-2{
+.container-informacion{
     min-height: 40vh;
     background: rgb(142,163,141);
     background: linear-gradient(90deg, rgba(142,163,141,1) 25%, rgba(255,255,255,1) 88%);
@@ -72,7 +72,7 @@ $parrafo-cartas: 'Nunito', sans-serif;
 }
 
 
-.grid{
+.grid-cartas{
     background-color: #588157;
     text-align: center;
 
@@ -119,7 +119,7 @@ $parrafo-cartas: 'Nunito', sans-serif;
         font-size: 3.5em;
     }
 
-    .grid{
+    .grid-cartas{
         min-height: 50vh;
         width: 100%;
         display: flex;

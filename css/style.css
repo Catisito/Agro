@@ -106,7 +106,7 @@ body {
     font-size: 1.5em;
   }
 }
-.container {
+.container-principal {
   min-height: 40vh;
   background-image: url(../img/pexels-tom-fisk-1595108.jpg);
   background-size: cover;
@@ -114,7 +114,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: multiply;
 }
-.container h2 {
+.container-principal h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,57 +124,57 @@ body {
   padding: 10px;
   font-size: 1.8em;
 }
-.container h3 {
+.container-principal h3 {
   color: white;
   font-size: 2em;
 }
-.container p {
+.container-principal p {
   color: #fff;
   font-size: 1.1em;
 }
-.container span {
+.container-principal span {
   color: gold;
 }
-.container h4 {
+.container-principal h4 {
   display: grid;
   color: white;
   font-size: 3em;
 }
-.container p {
+.container-principal p {
   padding: 10px;
 }
-.container i {
+.container-principal i {
   padding: 20px;
   color: white;
   font-size: 8em;
 }
 
-.container1-2 {
+.container-informacion {
   min-height: 40vh;
   background: rgb(142, 163, 141);
   background: linear-gradient(90deg, rgb(142, 163, 141) 25%, rgb(255, 255, 255) 88%);
   font-size: 1em;
   text-align: center;
 }
-.container1-2 h3 {
+.container-informacion h3 {
   padding: 10px;
   font-size: 2em;
 }
 
-.grid {
+.grid-cartas {
   background-color: #588157;
   text-align: center;
 }
-.grid h4 {
+.grid-cartas h4 {
   font-family: "Roboto", sans-serif;
   font-size: 2.3em;
 }
-.grid i {
+.grid-cartas i {
   padding: 20px;
   color: #242424;
   font-size: 6em;
 }
-.grid p {
+.grid-cartas p {
   font-family: "Nunito", sans-serif;
   font-size: 1.5em;
   margin: 0;
@@ -200,17 +200,17 @@ body {
   .container1-2 h3 {
     font-size: 3.5em;
   }
-  .grid {
+  .grid-cartas {
     min-height: 50vh;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
-  .grid h4 {
+  .grid-cartas h4 {
     padding: 10px;
   }
-  .grid i {
+  .grid-cartas i {
     font-size: 10em;
   }
   .grid_layout2 {
