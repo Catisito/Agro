@@ -182,22 +182,22 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .container-principal {
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-width: 100%;
     min-height: 60vh;
   }
-  .container h2 {
+  .container-principal h2 {
     font-size: 3.5em;
     text-align: start;
     padding: 0;
   }
-  .container img {
+  .container-principal img {
     width: 50%;
   }
-  .container1-2 h3 {
+  .container-informacion h3 {
     font-size: 3.5em;
   }
   .grid-cartas {
@@ -213,7 +213,7 @@ body {
   .grid-cartas i {
     font-size: 10em;
   }
-  .grid_layout2 {
+  .grid_layout {
     display: flex;
   }
 }

@@ -97,7 +97,7 @@ $parrafo-cartas: 'Nunito', sans-serif;
 
 @media screen and (min-width: 768px){
 
-    .container{
+    .container-principal{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -115,7 +115,7 @@ $parrafo-cartas: 'Nunito', sans-serif;
             }
     }
 
-    .container1-2 h3{
+    .container-informacion h3{
         font-size: 3.5em;
     }
 
@@ -136,7 +136,7 @@ $parrafo-cartas: 'Nunito', sans-serif;
     }
 
 
-    .grid_layout2{
+    .grid_layout{
         display: flex;
     }
 
