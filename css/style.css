@@ -579,7 +579,7 @@ body {
     padding: 10px;
   }
 }
-.container7 {
+.container-ambiente-principal {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -593,25 +593,25 @@ body {
   color: #fff;
   min-height: 20vh;
 }
-.container7 h2 {
+.container-ambiente-principal h2 {
   font-family: "Pathway Extreme", sans-serif;
   font-size: 3em;
   background-color: rgba(0, 0, 0, 0.1843137255);
 }
-.container7 p {
+.container-ambiente-principal p {
   font-weight: 600;
   font-size: 1.2em;
   margin-bottom: 0rem;
   background-color: rgba(0, 0, 0, 0.1843137255);
 }
 
-.container8 {
+.container-informacion-ambiente {
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: #344e41;
 }
-.container8 h3 {
+.container-informacion-ambiente h3 {
   color: #fff;
   font-family: "Ubuntu", sans-serif;
   font-size: 1.5em;
@@ -620,11 +620,11 @@ body {
   text-transform: uppercase;
   font-size: 600;
 }
-.container8 img {
+.container-informacion-ambiente img {
   width: 60%;
   padding: 10px;
 }
-.container8 p {
+.container-informacion-ambiente p {
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -632,23 +632,23 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .container7 {
+  .container-ambiente-principal {
     min-height: 50vh;
   }
-  .container7 h2 {
+  .container-ambiente-principal h2 {
     font-size: 6em;
   }
-  .container8 h3 {
+  .container-informacion-ambiente h3 {
     padding: 10px;
     line-height: 3;
     letter-spacing: 0.063em;
     min-height: 30vh;
     font-size: 3em;
   }
-  .container8 img {
+  .container-informacion-ambiente img {
     width: 50vw;
   }
-  .container8 p {
+  .container-informacion-ambiente p {
     font-size: 1.3em;
     padding: 20px;
   }

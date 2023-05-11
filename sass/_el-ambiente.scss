@@ -21,7 +21,7 @@ $letras: 'Poppins', sans-serif;
      min-height: 20vh;
 }
 
-.container7{
+.container-ambiente-principal{
 
      & h2{
           font-family: $titulo;
@@ -41,7 +41,7 @@ $letras: 'Poppins', sans-serif;
 
 }
 
-.container8{
+.container-informacion-ambiente{
      display: flex;
      align-items: center;
      flex-direction: column;
@@ -73,7 +73,7 @@ $letras: 'Poppins', sans-serif;
 }
 
 @media screen and (min-width: 768px){
-     .container7{
+     .container-ambiente-principal{
           min-height: 50vh;
           
           & h2{
@@ -81,7 +81,7 @@ $letras: 'Poppins', sans-serif;
           }
      }
 
-     .container8{
+     .container-informacion-ambiente{
           
           & h3{
           padding: 10px;
