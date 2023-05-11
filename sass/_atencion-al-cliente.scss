@@ -27,7 +27,7 @@ $color: #bc4749;
     gap: 5px;
 }
 
-.container3{
+.container-atencion-cliente{
 
     & h2{
         font-size: 1.5em;
@@ -44,7 +44,7 @@ $color: #bc4749;
     @include container-atencion-cliente()
 }
 
-.container4{
+.container-informacion-empresa{
     @include flex;
 
     & h3{
@@ -70,7 +70,7 @@ $color: #bc4749;
 }
 
 @media screen and (min-width: 768px){
-    .container3{
+    .container-atencion-cliente{
         font-size: 1em;
 
         & h2{
@@ -86,7 +86,7 @@ $color: #bc4749;
         }
     }
 
-    .container4{
+    .container-informacion-empresa{
         justify-content: center;
         align-items: center;
         text-align: center;

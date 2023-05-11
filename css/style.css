@@ -22,7 +22,7 @@ body {
   font-family: "Jost", sans-serif;
 }
 
-.container3 {
+.container-atencion-cliente {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   display: flex;
@@ -35,17 +35,17 @@ body {
   padding: 5px;
   gap: 5px;
 }
-.container3 h2 {
+.container-atencion-cliente h2 {
   font-size: 1.5em;
 }
-.container3 #telephone {
+.container-atencion-cliente #telephone {
   font-size: 1em;
 }
-.container3 #horarios {
+.container-atencion-cliente #horarios {
   font-size: 1em;
 }
 
-.container4 {
+.container-informacion-empresa {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,11 +55,11 @@ body {
   gap: 20px;
   background-color: #f2e8cf;
 }
-.container4 h3 {
+.container-informacion-empresa h3 {
   font-family: "Pathway Extreme", sans-serif;
   text-transform: uppercase;
 }
-.container4 span {
+.container-informacion-empresa span {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.6em;
@@ -67,42 +67,42 @@ body {
   color: #fff;
   font-weight: 600;
 }
-.container4 ul li {
+.container-informacion-empresa ul li {
   font-weight: 600;
   list-style: decimal;
   margin-bottom: 15px;
 }
 
 @media screen and (min-width: 768px) {
-  .container3 {
+  .container-atencion-cliente {
     font-size: 1em;
   }
-  .container3 h2 {
+  .container-atencion-cliente h2 {
     font-size: 2.3em;
   }
-  .container3 #telephone {
+  .container-atencion-cliente #telephone {
     font-size: 1.6em;
   }
-  .container3 #horarios {
+  .container-atencion-cliente #horarios {
     font-size: 1.3em;
   }
-  .container4 {
+  .container-informacion-empresa {
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 50px;
   }
-  .container4 h3 {
+  .container-informacion-empresa h3 {
     font-size: 2.5em;
   }
-  .container4 p {
+  .container-informacion-empresa p {
     font-size: 1.5em;
   }
-  .container4 span {
+  .container-informacion-empresa span {
     font-size: 4em;
     padding: 10px;
   }
-  .container4 li {
+  .container-informacion-empresa li {
     font-size: 1.5em;
   }
 }
@@ -402,7 +402,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-.container3 {
+.container-atencion-cliente {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   display: flex;
@@ -415,17 +415,17 @@ body {
   padding: 5px;
   gap: 5px;
 }
-.container3 h2 {
+.container-atencion-cliente h2 {
   font-size: 1.5em;
 }
-.container3 #telephone {
+.container-atencion-cliente #telephone {
   font-size: 1em;
 }
-.container3 #horarios {
+.container-atencion-cliente #horarios {
   font-size: 1em;
 }
 
-.container4 {
+.container-informacion-empresa {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -435,11 +435,11 @@ body {
   gap: 20px;
   background-color: #f2e8cf;
 }
-.container4 h3 {
+.container-informacion-empresa h3 {
   font-family: "Pathway Extreme", sans-serif;
   text-transform: uppercase;
 }
-.container4 span {
+.container-informacion-empresa span {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.6em;
@@ -447,42 +447,42 @@ body {
   color: #fff;
   font-weight: 600;
 }
-.container4 ul li {
+.container-informacion-empresa ul li {
   font-weight: 600;
   list-style: decimal;
   margin-bottom: 15px;
 }
 
 @media screen and (min-width: 768px) {
-  .container3 {
+  .container-atencion-cliente {
     font-size: 1em;
   }
-  .container3 h2 {
+  .container-atencion-cliente h2 {
     font-size: 2.3em;
   }
-  .container3 #telephone {
+  .container-atencion-cliente #telephone {
     font-size: 1.6em;
   }
-  .container3 #horarios {
+  .container-atencion-cliente #horarios {
     font-size: 1.3em;
   }
-  .container4 {
+  .container-informacion-empresa {
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 50px;
   }
-  .container4 h3 {
+  .container-informacion-empresa h3 {
     font-size: 2.5em;
   }
-  .container4 p {
+  .container-informacion-empresa p {
     font-size: 1.5em;
   }
-  .container4 span {
+  .container-informacion-empresa span {
     font-size: 4em;
     padding: 10px;
   }
-  .container4 li {
+  .container-informacion-empresa li {
     font-size: 1.5em;
   }
 }
