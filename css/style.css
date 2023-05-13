@@ -197,7 +197,7 @@ body {
     font-size: 3.5em;
   }
   .grid-cartas {
-    min-height: 50vh;
+    min-height: 60vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -304,11 +304,23 @@ body {
 }
 @media screen and (min-width: 768px) {
   .boton:hover .icono {
-    left: calc(100% - 600px);
+    left: calc(100% - 350px);
     opacity: 1;
   }
   .boton .icono {
     left: 480px;
+  }
+}
+@media screen and (min-width: 928px) {
+  .boton:hover .icono {
+    left: calc(100% - 430px);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .boton:hover .icono {
+    left: calc(100% - 620px);
+    opacity: 1;
   }
 }
 .container-titulo-maquinaria {
